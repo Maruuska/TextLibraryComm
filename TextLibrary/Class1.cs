@@ -54,5 +54,32 @@
                 return false;
             }
         }
+
+        /* Трудникова К.
+        Замена слова в строке
+        входные данные: текст и два слова типа string
+        выходные данные: значение string */
+
+        public static string ChangeWord(string text, string word1, string word2)
+        {
+
+            //если строки пустые, то выбрасывается исключение
+            if (text == "" || word1 == "" || word2 == "")
+            {
+                throw new ArgumentNullException("Строки не должны быть пустыми!");
+            }
+            // преобразование к нижнему регистру
+            text = text.ToLower().Trim();
+            word1 = word.ToLower().Trim();
+            word2 = word.ToLower().Trim();
+
+            //замена слова
+            text.Replace(word1, word2) ;
+
+            //возврат строки
+            return text;
+        }
+
+
     }
 }
