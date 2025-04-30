@@ -8,24 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ДунаеваМВ\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\9ksen\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dunaeva\\TextLibrary\\TextLibrary\\TextLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\9ksen\\Source\\Repos\\TextLibraryComm\\TextLibrary\\TextLibrary.csproj",
       "projectName": "TextLibrary",
-      "projectPath": "D:\\Dunaeva\\TextLibrary\\TextLibrary\\TextLibrary.csproj",
-      "packagesPath": "C:\\Users\\ДунаеваМВ\\.nuget\\packages\\",
-      "outputPath": "D:\\Dunaeva\\TextLibrary\\TextLibrary\\obj\\",
+      "projectPath": "C:\\Users\\9ksen\\Source\\Repos\\TextLibraryComm\\TextLibrary\\TextLibrary.csproj",
+      "packagesPath": "C:\\Users\\9ksen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\9ksen\\Source\\Repos\\TextLibraryComm\\TextLibrary\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ДунаеваМВ\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\9ksen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
