@@ -26,5 +26,33 @@
             // сравнение двух слов
             return string.Equals(word1, word2);
         }
+
+
+        // Трудникова К.
+        // Поиск слова в строке
+        // входные данные: текст и слово типа string
+        // выходные данные: значение bool
+        public static bool SearchWord(string text, string word)
+        {
+            
+            //если строки пустые, то выбрасывается исключение
+            if (text == "" || word == "")
+            {
+                throw new ArgumentNullException("Строки не должны быть пустыми!");
+            }
+            // преобразование к нижнему регистру
+            text = text.ToLower().Trim();
+            word = word.ToLower().Trim();
+
+            //поиск слова
+            if (text.Contains(word))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }
