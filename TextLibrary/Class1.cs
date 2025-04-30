@@ -1,4 +1,6 @@
-﻿namespace TextLibrary
+﻿using System.Text.RegularExpressions;
+
+namespace TextLibrary
 {
     public class Class1
     {
@@ -70,14 +72,33 @@
             }
             // преобразование к нижнему регистру
             text = text.ToLower().Trim();
-            word1 = word.ToLower().Trim();
-            word2 = word.ToLower().Trim();
+            word1 = word1.ToLower().Trim();
+            word2 = word2.ToLower().Trim();
 
             //замена слова
             text.Replace(word1, word2) ;
 
             //возврат строки
             return text;
+        }
+
+        // Дунаева М.
+        // Очищение строки от специальных символов 
+        // входные данные: строка типа string
+        // выходные данные: строка типа string
+        public static string ClearingRow(string str)
+        {
+            // если строка пустая то возвращается null
+            if (string.IsNullOrEmpty(str))
+            {
+                return null;
+            }
+
+            // удаляются все символы кроме букв, цифр от 0-9
+            string newStr = Regex.Replace(str,@"\W+","",RegexOptions.Compiled);
+
+            // сравнение двух слов
+            return newStr;
         }
 
 
